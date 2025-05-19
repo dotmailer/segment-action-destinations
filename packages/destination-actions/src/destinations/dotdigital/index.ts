@@ -6,6 +6,7 @@ import enrolContact from './enrolContact'
 import addContactToList from './addContactToList'
 const destination: DestinationDefinition<Settings> = {
   name: 'Dotdigital',
+  description: 'Send Segment events and user profile data to Dotdigital.',
   slug: 'actions-dotdigital',
   mode: 'cloud',
 

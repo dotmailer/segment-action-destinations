@@ -9,7 +9,7 @@ const channelIdentifier: InputField = {
   required: true,
   choices: [
     { label: 'Email address', value: 'email' },
-    { label: 'Mobile number', value: 'mobile-number' }
+    { label: 'Mobile number', value: 'mobileNumber' }
   ]
 }
 

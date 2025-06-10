@@ -45,10 +45,10 @@ const mobileNumberIdentifier: InputField = {
     }
   },
   depends_on: {
-    conditions: [{ fieldKey: 'channelIdentifier', operator: 'is', value: 'mobile-number' }]
+    conditions: [{ fieldKey: 'channelIdentifier', operator: 'is', value: 'mobileNumber' }]
   },
   required: {
-    conditions: [{ fieldKey: 'channelIdentifier', operator: 'is', value: 'mobile-number' }]
+    conditions: [{ fieldKey: 'channelIdentifier', operator: 'is', value: 'mobileNumber' }]
   }
 }
 
